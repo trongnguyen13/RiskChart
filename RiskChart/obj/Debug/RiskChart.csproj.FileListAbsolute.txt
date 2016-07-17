@@ -1,0 +1,66 @@
+c:\users\nguyen\documents\visual studio 2015\Projects\RiskChart\RiskChart\bin\ApplicationInsights.config
+c:\users\nguyen\documents\visual studio 2015\Projects\RiskChart\RiskChart\bin\roslyn\csc.exe
+c:\users\nguyen\documents\visual studio 2015\Projects\RiskChart\RiskChart\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+c:\users\nguyen\documents\visual studio 2015\Projects\RiskChart\RiskChart\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+c:\users\nguyen\documents\visual studio 2015\Projects\RiskChart\RiskChart\bin\roslyn\Microsoft.CodeAnalysis.dll
+c:\users\nguyen\documents\visual studio 2015\Projects\RiskChart\RiskChart\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+c:\users\nguyen\documents\visual studio 2015\Projects\RiskChart\RiskChart\bin\roslyn\Microsoft.CSharp.Core.targets
+c:\users\nguyen\documents\visual studio 2015\Projects\RiskChart\RiskChart\bin\roslyn\Microsoft.VisualBasic.Core.targets
+c:\users\nguyen\documents\visual studio 2015\Projects\RiskChart\RiskChart\bin\roslyn\System.Collections.Immutable.dll
+c:\users\nguyen\documents\visual studio 2015\Projects\RiskChart\RiskChart\bin\roslyn\System.Reflection.Metadata.dll
+c:\users\nguyen\documents\visual studio 2015\Projects\RiskChart\RiskChart\bin\roslyn\vbc.exe
+c:\users\nguyen\documents\visual studio 2015\Projects\RiskChart\RiskChart\bin\roslyn\VBCSCompiler.exe
+c:\users\nguyen\documents\visual studio 2015\Projects\RiskChart\RiskChart\bin\roslyn\VBCSCompiler.exe.config
+c:\users\nguyen\documents\visual studio 2015\Projects\RiskChart\RiskChart\bin\RiskChart.dll.config
+c:\users\nguyen\documents\visual studio 2015\Projects\RiskChart\RiskChart\bin\RiskChart.dll
+c:\users\nguyen\documents\visual studio 2015\Projects\RiskChart\RiskChart\bin\RiskChart.pdb
+c:\users\nguyen\documents\visual studio 2015\Projects\RiskChart\RiskChart\bin\Microsoft.AI.Agent.Intercept.dll
+c:\users\nguyen\documents\visual studio 2015\Projects\RiskChart\RiskChart\bin\Microsoft.AI.DependencyCollector.dll
+c:\users\nguyen\documents\visual studio 2015\Projects\RiskChart\RiskChart\bin\Microsoft.AI.PerfCounterCollector.dll
+c:\users\nguyen\documents\visual studio 2015\Projects\RiskChart\RiskChart\bin\Microsoft.AI.ServerTelemetryChannel.dll
+c:\users\nguyen\documents\visual studio 2015\Projects\RiskChart\RiskChart\bin\Microsoft.AI.Web.dll
+c:\users\nguyen\documents\visual studio 2015\Projects\RiskChart\RiskChart\bin\Microsoft.AI.WindowsServer.dll
+c:\users\nguyen\documents\visual studio 2015\Projects\RiskChart\RiskChart\bin\Microsoft.ApplicationInsights.dll
+c:\users\nguyen\documents\visual studio 2015\Projects\RiskChart\RiskChart\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+c:\users\nguyen\documents\visual studio 2015\Projects\RiskChart\RiskChart\bin\Microsoft.AI.DependencyCollector.xml
+c:\users\nguyen\documents\visual studio 2015\Projects\RiskChart\RiskChart\bin\Microsoft.AI.ServerTelemetryChannel.xml
+c:\users\nguyen\documents\visual studio 2015\Projects\RiskChart\RiskChart\bin\Microsoft.AI.Web.xml
+c:\users\nguyen\documents\visual studio 2015\Projects\RiskChart\RiskChart\bin\Microsoft.AI.WindowsServer.xml
+c:\users\nguyen\documents\visual studio 2015\Projects\RiskChart\RiskChart\bin\Microsoft.ApplicationInsights.xml
+c:\users\nguyen\documents\visual studio 2015\Projects\RiskChart\RiskChart\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+c:\users\nguyen\documents\visual studio 2015\Projects\RiskChart\RiskChart\obj\Debug\RiskChart.csprojResolveAssemblyReference.cache
+c:\users\nguyen\documents\visual studio 2015\Projects\RiskChart\RiskChart\obj\Debug\RiskChart.dll
+c:\users\nguyen\documents\visual studio 2015\Projects\RiskChart\RiskChart\obj\Debug\RiskChart.pdb
+D:\Code\RiskChart\RiskChart\bin\ApplicationInsights.config
+D:\Code\RiskChart\RiskChart\bin\roslyn\csc.exe
+D:\Code\RiskChart\RiskChart\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Code\RiskChart\RiskChart\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Code\RiskChart\RiskChart\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Code\RiskChart\RiskChart\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Code\RiskChart\RiskChart\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Code\RiskChart\RiskChart\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Code\RiskChart\RiskChart\bin\roslyn\System.Collections.Immutable.dll
+D:\Code\RiskChart\RiskChart\bin\roslyn\System.Reflection.Metadata.dll
+D:\Code\RiskChart\RiskChart\bin\roslyn\vbc.exe
+D:\Code\RiskChart\RiskChart\bin\roslyn\VBCSCompiler.exe
+D:\Code\RiskChart\RiskChart\bin\roslyn\VBCSCompiler.exe.config
+D:\Code\RiskChart\RiskChart\bin\RiskChart.dll.config
+D:\Code\RiskChart\RiskChart\bin\RiskChart.dll
+D:\Code\RiskChart\RiskChart\bin\RiskChart.pdb
+D:\Code\RiskChart\RiskChart\bin\Microsoft.AI.Agent.Intercept.dll
+D:\Code\RiskChart\RiskChart\bin\Microsoft.AI.DependencyCollector.dll
+D:\Code\RiskChart\RiskChart\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\Code\RiskChart\RiskChart\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\Code\RiskChart\RiskChart\bin\Microsoft.AI.Web.dll
+D:\Code\RiskChart\RiskChart\bin\Microsoft.AI.WindowsServer.dll
+D:\Code\RiskChart\RiskChart\bin\Microsoft.ApplicationInsights.dll
+D:\Code\RiskChart\RiskChart\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Code\RiskChart\RiskChart\bin\Microsoft.AI.DependencyCollector.xml
+D:\Code\RiskChart\RiskChart\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\Code\RiskChart\RiskChart\bin\Microsoft.AI.Web.xml
+D:\Code\RiskChart\RiskChart\bin\Microsoft.AI.WindowsServer.xml
+D:\Code\RiskChart\RiskChart\bin\Microsoft.ApplicationInsights.xml
+D:\Code\RiskChart\RiskChart\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Code\RiskChart\RiskChart\obj\Debug\RiskChart.csprojResolveAssemblyReference.cache
+D:\Code\RiskChart\RiskChart\obj\Debug\RiskChart.dll
+D:\Code\RiskChart\RiskChart\obj\Debug\RiskChart.pdb
