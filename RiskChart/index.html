@@ -2,23 +2,64 @@
 <html>
 <head>
     <title></title>
-	<meta charset="utf-8" />
+    <meta charset="utf-8" />
     <style>
-
     </style>
     <script src="scripts/jquery-3.1.0.min.js" type="text/javascript"></script>
+    <script src="scripts/knockout-3.4.0.js" type="text/javascript"></script>
     <script src="scripts/highcharts.js" type="text/javascript"></script>
     <script src="scripts/modules/heatmap.js" type="text/javascript"></script>
     <script src="scripts/modules/exporting.js" type="text/javascript"></script>
+    <script src="scripts/modules/drilldown.js" type="text/javascript"></script>
 </head>
 <body>
-    <script src="chart.js" type="text/javascript"></script>
-    <script src="line-chart.js" type="text/javascript"></script>
-    <script src="column-chart.js" type="text/javascript"></script>
-    <div id="container"></div>
+    <script src="scripts/charts/risktrends.js" type="text/javascript"></script>
+    <script src="scripts/charts/riskMatrix.js" type="text/javascript"></script>
+    <script src="scripts/charts/riskColumn.js" type="text/javascript"></script>
 
-    <div id="container-line"></div>
+    <button type="button" data-bind="click: changeTemplate">Change Template</button>
+    
 
-    <div id="container-column"></div>
+    <div data-bind="template: {name: templateName}"></div>
+
+    <script type="text/html" id="trends">
+        <div class="container" data-bind="trendsChart: {data: data, name: name}"></div>
+    </script>
+
+    <script type="text/html" id="risks">
+        <div id="container" class="container"  data-bind="matrixChart: {data: reiskMatrixData, name: riskMatrixName}">
+        </div>
+
+        <div id="container-top-risk" class="container" data-bind="columnChart: {data: topRiskChartData, name: topRiskChartName, title: topRiskChartTitle}">
+        </div>
+    </script>
+
+    <script>
+        function viewModel() {
+            var self = this;
+
+            self.templateName = ko.observable('trends');
+
+            self.name = ko.observable('Factor');
+            self.data = ko.observableArray([['Jan', 1.5], ['Feb', 3.2], ['Mar', 2.4], ['Apr', 0.8], ['May', 1.2], ['Jun', 3.6], ['Jul', 2.2], ['Aug', 0.5], ['Sep', 1.8]]);
+
+            self.riskMatrixName = ko.observable('');
+            self.reiskMatrixData = ko.observableArray([[1, 9, 20], [2, 9, 10], [3, 9, 30], [4, 9, 40], [3, 1, 12], [2, 2, 8], [4, 5, 18], [3, 9, 5], [2, 3, 9], [3, 2, 9]]);
+
+            self.topRiskChartName = ko.observable('');
+            self.topRiskChartData = ko.observableArray([]);
+            self.topRiskChartTitle = ko.observable('Top Risks');
+
+            self.changeTemplate = function () {
+                if (this.templateName() == 'trends') {
+                    this.templateName('risks');
+                } else {
+                    this.templateName('trends');
+                }
+            }
+        }
+
+        ko.applyBindings(new viewModel());
+    </script>
 </body>
 </html>

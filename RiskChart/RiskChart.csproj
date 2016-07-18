@@ -112,8 +112,13 @@
     <Content Include="line-chart.js" />
     <Content Include="scripts\ai.0.22.9-build00167.js" />
     <Content Include="scripts\ai.0.22.9-build00167.min.js" />
+    <Content Include="scripts\charts\riskColumn.js" />
+    <Content Include="scripts\charts\riskmatrix.js" />
+    <Content Include="scripts\charts\risktrends.js" />
     <Content Include="scripts\highcharts.js" />
     <Content Include="scripts\jquery-3.1.0.min.js" />
+    <Content Include="scripts\knockout-3.4.0.debug.js" />
+    <Content Include="scripts\knockout-3.4.0.js" />
     <Content Include="scripts\modules\boost.js" />
     <Content Include="scripts\modules\boost.src.js" />
     <Content Include="scripts\modules\broken-axis.js" />
