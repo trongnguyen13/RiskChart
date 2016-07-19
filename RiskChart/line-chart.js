@@ -13,7 +13,12 @@
             //categories: [0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9],
         },
         xAxis: {
-            categories: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec']
+            categories: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'],
+            plotLines: [{
+                color: '#FF0000', // Red
+                width: 2,
+                value: 5.5 // Position, you'll have to translate this to the values on your x axis
+            }]
         },
         plotOptions: {
             line: {
