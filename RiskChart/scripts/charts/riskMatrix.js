@@ -5,6 +5,31 @@
         var data = options.data() || [];
         var name = options.name() || null;
 
+        var circleX = 161.2;
+        var circleY = 51.6;
+        var circleR = 0.04;
+
+        function addCircle(chart) {
+            if (this.circle) {
+                $(this.circle.element).remove();
+            }
+
+            for (var i = 0; i < chart.series[0].data.length; i++) {
+                pixel = chart.series[0].data[i];
+                var pixelX = chart.xAxis[0].toPixels(pixel.x);
+                var pixelY = chart.yAxis[0].toPixels(pixel.y);
+                var pixelR = chart.xAxis[0].toPixels(circleR) - chart.xAxis[0].toPixels(0);
+
+                this.circle = chart.renderer.circle(pixelX, pixelY, pixelR).attr({
+                    fill: 'transparent',
+                    stroke: 'black',
+                    'stroke-width': 1
+                });
+                this.circle.add();
+            }
+           
+        }
+
         $(element).highcharts({
             chart: {
                 type: 'heatmap',
@@ -20,6 +45,14 @@
                       [0.6, 'rgb(255,255,0)'],
                       [1, 'rgb(255,0,0)']
                     ]
+                },
+                events: {
+                    load: function () {
+                        addCircle(this);
+                    },
+                    redraw: function () {
+                        addCircle(this);
+                    }
                 }
             },
             title: {
